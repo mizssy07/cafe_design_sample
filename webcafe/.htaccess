@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ https://mizssy07.github.io/web_design_paractice/webcafe/$1 [R=301,L]
